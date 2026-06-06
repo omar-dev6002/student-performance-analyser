@@ -1,0 +1,45 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual environments ───────────────────────────────────────────────────────
+venv/
+env/
+.venv/
+.env/
+
+# ── Jupyter ────────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Data ───────────────────────────────────────────────────────────────────────
+# Raw datasets should NOT be committed to git
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.json
+data/raw/*.zip
+
+# Processed data CAN be committed (usually small/derived)
+# Remove the line below if you don't want to commit processed data
+# data/processed/
+
+# ── Saved models ──────────────────────────────────────────────────────────────
+outputs/models/*.pkl
+outputs/models/*.joblib
+
+# ── OS & editor junk ──────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# ── Environment variables ─────────────────────────────────────────────────────
+.env
